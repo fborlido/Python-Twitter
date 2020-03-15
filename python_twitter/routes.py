@@ -1,8 +1,6 @@
-from flask import Flask, render_template, url_for, flash, redirect
-from forms import RegistrationForm, LoginForm
-
-app = Flask(__name__)
-app.config['SECRET_KEY'] = '3700b0f6c64981f8fa1f53d16bacb69f'
+from flask import render_template, url_for, flash, redirect
+from python_twitter import app
+from python_twitter.forms import RegistrationForm, LoginForm
 
 posts = [
     {
@@ -80,5 +78,3 @@ def login():
     return render_template('login.html', title='Login', form=form)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
