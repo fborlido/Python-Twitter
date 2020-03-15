@@ -1,0 +1,36 @@
+body {
+  background: #fafafa;
+  margin-top: 5rem;
+}
+
+.bg-custom {
+  background-color: #DC8757;
+}
+
+.color-custom {
+  color: #DC8757;
+}
+
+.color-custom:hover {
+  color: #DC8757;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.card-body a {
+  color: #DC8757;
+}
+
+.btn-custom {
+  background-color: #fafafa;
+  border-color: #DC8757;
+  color: #DC8757;
+}
+
+.btn-custom:hover {
+  background-color: #DC8757;
+  color: #fafafa;
+}
